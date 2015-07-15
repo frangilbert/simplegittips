@@ -26,3 +26,6 @@
 `git branch newbranch`  
 `git reset --hard HEAD~3` # Go back 3 commits. You *will* lose uncommitted work.*1  
 `git checkout newbranch`  
+
+#Reset master branch to remote state
+git reset --hard origin/master
