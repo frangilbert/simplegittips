@@ -28,4 +28,7 @@
 `git checkout newbranch`  
 
 #Reset master branch to remote state
-git reset --hard origin/master
+`git reset --hard origin/master`
+
+#Switch to branch before pushing
+`git symbolic-ref HEAD refs/heads/not-master`
