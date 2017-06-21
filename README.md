@@ -32,3 +32,6 @@
 
 #Switch to branch before pushing
 `git symbolic-ref HEAD refs/heads/not-master`
+
+#Delete all local branches except for develop
+git branch | grep -v "develop" | xargs git branch -D
